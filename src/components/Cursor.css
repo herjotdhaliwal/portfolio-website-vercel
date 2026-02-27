@@ -1,0 +1,22 @@
+.cursor {
+  width: 8px; height: 8px;
+  background: var(--accent);
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transition: transform 0.1s;
+  mix-blend-mode: difference;
+}
+.cursor-trail {
+  width: 32px; height: 32px;
+  border: 1.5px solid var(--accent);
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9998;
+  transition: transform 0.15s ease-out, width 0.2s, height 0.2s;
+}
+.cursor.hover { transform: scale(2.5); }
+.cursor-trail.hover { width: 50px; height: 50px; border-color: var(--accent2); }
+@media (hover: none) { .cursor, .cursor-trail { display: none; } }

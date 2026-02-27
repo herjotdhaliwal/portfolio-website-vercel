@@ -1,0 +1,11 @@
+.edu-card {
+  display: flex; align-items: center; gap: 24px;
+  padding: 28px; transition: border-color 0.3s;
+}
+.edu-icon { font-size: 2.5rem; }
+.edu-info h3 { font-size: 1.1rem; font-weight: 600; }
+.edu-info p { color: var(--text-muted); font-size: 0.9rem; margin-top: 4px; }
+.edu-date {
+  font-family: var(--font-mono); font-size: 0.78rem;
+  color: var(--text-muted); margin-top: 4px; display: block;
+}

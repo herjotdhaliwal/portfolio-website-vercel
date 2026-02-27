@@ -1,0 +1,15 @@
+.beyond-intro {
+  color: var(--text-muted); font-size: 1.05rem; line-height: 1.7;
+  margin-bottom: 32px; font-style: italic;
+}
+.beyond-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; }
+.beyond-card {
+  padding: 24px 16px; text-align: center;
+  transition: border-color 0.3s, transform 0.3s;
+}
+.beyond-icon { font-size: 2rem; display: block; margin-bottom: 12px; }
+.beyond-card h3 { font-size: 0.9rem; font-weight: 600; margin-bottom: 6px; }
+.beyond-card p { font-size: 0.78rem; color: var(--text-muted); line-height: 1.5; }
+
+@media (max-width: 768px) { .beyond-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 480px) { .beyond-grid { grid-template-columns: repeat(2, 1fr); } }

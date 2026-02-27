@@ -1,0 +1,214 @@
+{
+  "servers": {
+    "microsoft-fabric-rti-mcp-accountux": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "microsoft-fabric-rti-mcp==0.0.2"
+      ],
+      "env": {
+        "AZURE_CLUSTER_URI": "https://accountuxprod.eastus.kusto.windows.net/"
+      }
+    },
+    "microsoft-fabric-rti-mcp-loginserver": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "microsoft-fabric-rti-mcp==0.0.2"
+      ],
+      "env": {
+        "AZURE_CLUSTER_URI": "https://msaprodbay.kusto.windows.net/"
+      }
+    },
+    "microsoft-fabric-rti-mcp-authuxtelemetry": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "microsoft-fabric-rti-mcp==0.0.2"
+      ],
+      "env": {
+        "AZURE_CLUSTER_URI": "https://msaprodbay.kusto.windows.net"
+      }
+    },
+    "microsoft-fabric-rti-mcp-warmpathtelemetry": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "microsoft-fabric-rti-mcp==0.0.2"
+      ],
+      "env": {
+        "AZURE_CLUSTER_URI": "https://msaprodbl2.kusto.windows.net/"
+      }
+    },
+    "microsoft-fabric-rti-mcp-eststelemetry-estswus2": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "microsoft-fabric-rti-mcp==0.0.2"
+      ],
+      "env": {
+        "AZURE_CLUSTER_URI": "https://estswus2.kusto.windows.net/"
+      }
+    },
+    "microsoft-fabric-rti-mcp-eststelemetry-estswus3": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "microsoft-fabric-rti-mcp==0.0.2"
+      ],
+      "env": {
+        "AZURE_CLUSTER_URI": "https://estswus3.westus3.kusto.windows.net"
+      }
+    },
+    "microsoft-fabric-rti-mcp-eststelemetry-estsam2": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "microsoft-fabric-rti-mcp==0.0.2"
+      ],
+      "env": {
+        "AZURE_CLUSTER_URI": "https://estsam2.kusto.windows.net"
+      }
+    },
+    "microsoft-fabric-rti-mcp-eststelemetry-estsdb3": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "microsoft-fabric-rti-mcp==0.0.2"
+      ],
+      "env": {
+        "AZURE_CLUSTER_URI": "https://estsdb3.kusto.windows.net"
+      }
+    },
+    "microsoft-fabric-rti-mcp-eststelemetry-estsch1": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "microsoft-fabric-rti-mcp==0.0.2"
+      ],
+      "env": {
+        "AZURE_CLUSTER_URI": "https://estsch1.kusto.windows.net"
+      }
+    },
+    "microsoft-fabric-rti-mcp-eststelemetry-estssn1": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "microsoft-fabric-rti-mcp==0.0.2"
+      ],
+      "env": {
+        "AZURE_CLUSTER_URI": "https://estssn1.kusto.windows.net"
+      }
+    },
+    "microsoft-fabric-rti-mcp-eststelemetry-estsdm1": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "microsoft-fabric-rti-mcp==0.0.2"
+      ],
+      "env": {
+        "AZURE_CLUSTER_URI": "https://estsdm1.kusto.windows.net"
+      }
+    },
+    "microsoft-fabric-rti-mcp-eststelemetry-estsbl2": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "microsoft-fabric-rti-mcp==0.0.2"
+      ],
+      "env": {
+        "AZURE_CLUSTER_URI": "https://estsbl2.kusto.windows.net"
+      }
+    },
+    "microsoft-fabric-rti-mcp-eststelemetry-estssin": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "microsoft-fabric-rti-mcp==0.0.2"
+      ],
+      "env": {
+        "AZURE_CLUSTER_URI": "https://estssin.kusto.windows.net"
+      }
+    },
+    "microsoft-fabric-rti-mcp-eststelemetry-estshkn": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "microsoft-fabric-rti-mcp==0.0.2"
+      ],
+      "env": {
+        "AZURE_CLUSTER_URI": "https://estshkn.kusto.windows.net"
+      }
+    },
+    "microsoft-fabric-rti-mcp-eststelemetry-estsaue": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "microsoft-fabric-rti-mcp==0.0.2"
+      ],
+      "env": {
+        "AZURE_CLUSTER_URI": "https://estsaue.kusto.windows.net"
+      }
+    },
+    "microsoft-fabric-rti-mcp-eststelemetry-estsause": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "microsoft-fabric-rti-mcp==0.0.2"
+      ],
+      "env": {
+        "AZURE_CLUSTER_URI": "https://estsause.kusto.windows.net"
+      }
+    },
+    "microsoft-fabric-rti-mcp-eststelemetry-estskrs": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "microsoft-fabric-rti-mcp==0.0.2"
+      ],
+      "env": {
+        "AZURE_CLUSTER_URI": "https://estskrs.kusto.windows.net"
+      }
+    },
+    "microsoft-fabric-rti-mcp-eststelemetry-estskrc": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "microsoft-fabric-rti-mcp==0.0.2"
+      ],
+      "env": {
+        "AZURE_CLUSTER_URI": "https://estskrc.koreacentral.kusto.windows.net"
+      }
+    },
+    "microsoft-fabric-rti-mcp-eststelemetry-estssec": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "microsoft-fabric-rti-mcp==0.0.2"
+      ],
+      "env": {
+        "AZURE_CLUSTER_URI": "https://estssec.swedencentral.kusto.windows.net"
+      }
+    },
+    "microsoft-fabric-rti-mcp-eststelemetry-estsfrc": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "microsoft-fabric-rti-mcp==0.0.2"
+      ],
+      "env": {
+        "AZURE_CLUSTER_URI": "https://estsfrc.francecentral.kusto.windows.net"
+      }
+    },
+    "microsoft-fabric-rti-mcp-repmap": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "microsoft-fabric-rti-mcp==0.0.2"
+      ],
+      "env": {
+        "AZURE_CLUSTER_URI": "https://idsharedwus.kusto.windows.net/"
+      }
+    }
+  }
+}
