@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#050508"/>
+      <stop offset="50%" style="stop-color:#0f0a1e"/>
+      <stop offset="100%" style="stop-color:#050508"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a78bfa"/>
+      <stop offset="50%" style="stop-color:#c084fc"/>
+      <stop offset="100%" style="stop-color:#818cf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="900" cy="200" r="180" fill="#7c3aed" opacity="0.08"/>
+  <circle cx="300" cy="450" r="150" fill="#818cf8" opacity="0.06"/>
+  <text x="80" y="220" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="72" fill="url(#accent)">Herjot Dhaliwal</text>
+  <text x="80" y="290" font-family="Inter, system-ui, sans-serif" font-weight="500" font-size="32" fill="#8b8ba0">Software Engineer 2 at Microsoft</text>
+  <line x1="80" y1="320" x2="400" y2="320" stroke="#7c3aed" stroke-width="3" opacity="0.6"/>
+  <text x="80" y="380" font-family="monospace" font-size="22" fill="#34d399">&gt; Xbox &amp; Gaming · React · C# · TypeScript · Azure</text>
+  <text x="80" y="430" font-family="Inter, system-ui, sans-serif" font-size="20" fill="#8b8ba0" font-style="italic">Building platform experiences for millions of users</text>
+  <text x="80" y="560" font-family="monospace" font-size="18" fill="#a78bfa">herjotdhaliwal.dev</text>
+</svg>
