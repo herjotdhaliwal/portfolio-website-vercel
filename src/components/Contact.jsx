@@ -22,8 +22,6 @@ export default function Contact() {
             <a href="https://www.linkedin.com/in/herjotdhaliwal/" target="_blank" rel="noopener">LinkedIn</a>
             <span className="contact-sep">·</span>
             <a href="mailto:herjot18@outlook.com">herjot18@outlook.com</a>
-            <span className="contact-sep">·</span>
-            <span>(425) 542-3353</span>
           </div>
         </motion.div>
       </div>
