@@ -2,10 +2,10 @@ import { motion } from 'framer-motion'
 import './Skills.css'
 
 const categories = [
-  { title: 'Languages', items: ['C#', 'TypeScript', 'JavaScript', 'Python', 'Java', 'C', 'HTML/CSS'] },
-  { title: 'Frameworks', items: ['React', 'ASP.NET Core', 'Fluent UI', 'Node.js', 'FastAPI', 'Django'] },
-  { title: 'Cloud & Infrastructure', items: ['Azure', 'Cosmos DB', 'Azure Functions', 'Blob Storage', 'CI/CD', 'PostgreSQL'] },
-  { title: 'Tools & Practices', items: ['Git', 'Staged Rollouts', 'AI-Assisted Testing', 'Agile / Scrum', 'REST APIs'] },
+  { title: 'Languages', items: ['C#', 'TypeScript', 'JavaScript', 'Python', 'SQL (PostgreSQL)', 'Java', 'C'] },
+  { title: 'Frameworks', items: ['React', 'Fluent UI', 'ASP.NET Core', 'Node.js / Express', 'FastAPI', 'Django'] },
+  { title: 'Cloud & Delivery', items: ['Azure Functions', 'Cosmos DB', 'Azure DevOps', 'CI/CD', 'Staged Rollouts', 'A/B Testing'] },
+  { title: 'AI & Testing', items: ['GitHub Copilot', 'AI Agents & Skills', 'Playwright MCP', 'LLM APIs', 'E2E Test Automation'] },
 ]
 
 export default function Skills() {

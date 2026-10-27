@@ -10,10 +10,10 @@ class Hero3DBoundary extends Component {
 }
 
 const phrases = [
-  'Building platform experiences for Xbox',
-  'Shipping features to millions of users',
-  'Obsessed with the process',
-  'React · C# · TypeScript · Azure',
+  'Building Xbox child sign-up experiences',
+  '~33% higher consent completion in an A/B test',
+  'From staged rollout to general availability',
+  'React · TypeScript · Fluent UI · Azure',
   'Chasing summits on PNW trails',
 ]
 

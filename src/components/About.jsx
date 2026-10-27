@@ -19,8 +19,8 @@ export default function About() {
         <div className="bento-grid">
           <motion.div className="bento-card bento-bio glass"
             custom={0} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
-            <p>I'm a Software Engineer at <span className="highlight">Microsoft</span> working in the Gaming organization, where I build and ship platform experiences that reach <span className="highlight">millions of Xbox users</span> worldwide.</p>
-            <p>I'm passionate about taking complex, ambiguous problems and turning them into shipped products. Whether it's architecting a zero-downtime rollout strategy, leveraging AI to automate a test suite, or mentoring the next generation of engineers — I care deeply about impact, quality, and the people I work with.</p>
+            <p>I'm a Software Engineer 2 at <span className="highlight">Microsoft Gaming</span>, building Xbox child sign-up and parental consent experiences.</p>
+            <p>I take features from implementation through staged rollout and general availability. Recent work includes an A/B test with ~33% higher consent completion, an end-to-end AI test agent, and test instrumentation that keeps product analytics comparable across releases.</p>
           </motion.div>
 
           <motion.div className="bento-card bento-quote glass"
@@ -36,9 +36,9 @@ export default function About() {
             <p className="bento-location-sub">UofT → Microsoft</p>
           </motion.div>
 
-          <StatCard num={3} label="Internships → Full-Time" delay={3} />
-          <StatCard num={2} label="Major Releases Shipped" delay={4} />
-          <StatCard num={50} suffix="%+" label="Testing Automated" delay={5} />
+          <StatCard num={3} label="Child Sign-Up Releases Promoted" delay={3} />
+          <StatCard num={2} label="Day Manual Test Pass Replaced" delay={4} />
+          <StatCard num={18} suffix="+" label="API Test Cases Added" delay={5} />
         </div>
       </div>
     </section>

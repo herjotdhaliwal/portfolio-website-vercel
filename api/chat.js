@@ -4,21 +4,20 @@ Here is everything you know about Herjot:
 
 ROLE: Software Engineer 2 at Microsoft, Gaming Organization, Redmond WA.
 PROMOTION: Promoted from Software Engineer to Software Engineer 2 in March 2026.
-FLAGSHIP PROJECT: Owned and delivered the Parental Consent experience for Xbox end-to-end — from design through staged production rollout — enabling a full platform migration that retired a legacy system and modernized the UX for millions of Xbox users while maintaining 99.99% service reliability.
-ROLLOUT: Architected a staged rollout strategy, authored the rollout plan, monitored system health at each phase, provided data-driven go/no-go recommendations ensuring zero-downtime deployment.
-CROSS-TEAM: Coordinated across 3+ engineering teams to unblock dependencies.
-BUG BASHES: Directed multiple bug bashes pre-launch, triaged all findings, resolved every critical bug, clean production release.
-AI TESTING: Reduced manual testing effort by 50%+ using AI tooling to automate test suite migration.
-RELEASES: Shipped features across 2 major product releases with zero production incidents.
-MENTORING: Mentored a summer intern through daily 1:1s, accelerating ramp to independent contribution within 3 weeks, contributing to a return offer.
+CURRENT WORK: Built core screens for the Fluent UI rebuild of Xbox parental consent. The team's A/B test showed about 33% higher consent completion, 6% higher child sign-in, and 34.5% fewer backend round-trips.
+ROLLOUT: Took 3 child sign-up releases through staged rollout to full promotion, owning go/no-go readouts, health monitoring, and results reporting.
+AGE RESTRICTION: Shipped child sign-up age-restriction UI and routing to general availability; 2,400+ child accounts flowed through it with zero frontend exceptions in 21 days.
+AI TESTING: Built a Playwright MCP AI test agent that runs Azure DevOps test cases end to end, captures evidence, and reports results, replacing a 2-day manual test pass.
+TESTING: Owned the end-to-end test plan and cross-team bug bashes for the parental consent rebuild; added 18+ API test cases and instrumented 6 views while preserving legacy event names for comparable funnel dashboards.
+OTHER WORK: Authored the South Korea expansion design doc for regional age-verification gating; fixed gamepad and focus issues in consent flows and reported an upstream Fluent UI focus bug.
+PREVIOUS ROLE: As a Software Engineer from August 2023 to March 2026, led the migration of Xbox parental consent to a modern React codebase, preserving country-specific rules with zero downtime and 99.99% reliability. Delivered 2 major Xbox child-account creation releases early across 3+ teams, with zero incidents. Introduced GitHub Copilot workflows adopted by the team and mentored an intern to independent contribution in 3 weeks.
 
 INTERNSHIPS:
-- Summer 2022 (SWE Intern): Optimized async job tracking (20% faster), migrated ADAL to MSAL auth, security audit resolving 50+ vulnerabilities.
-- Summer 2021 (SWE Intern): Built Azure Functions + Cosmos DB + Blob Storage pipeline (30% efficiency gain), async job tracking.
-- Summer 2020 (Explore Intern): Auto-publish feature for Grafana dashboards (80% time reduction), React + TypeScript.
+- Software Engineer Intern for two consecutive summers, May 2021–July 2022: Re-architected async job tracking for concurrency (20% faster), resolved 50+ security vulnerabilities, migrated all auth flows from ADAL to MSAL, and built an Azure Functions and Cosmos DB pipeline that improved console-entitlement workflow efficiency by 30%.
+- Summer 2020 (Explore Intern): Built Grafana dashboard auto-publishing in React and TypeScript, cutting publishing time by 80%.
 
-EDUCATION: Honours Bachelor of Science in Computer Science, University of Toronto (2018-2023).
-SKILLS: C#, React, TypeScript, JavaScript, Python, Java, ASP.NET Core, Fluent UI, Azure (Functions, Cosmos DB, Blob Storage, Logic Apps), Node.js, CI/CD, Git, PostgreSQL.
+EDUCATION: Honours BSc in Computer Science and Geographic Information Systems, University of Toronto (2018–2023).
+SKILLS: C#, TypeScript, JavaScript, Python, SQL (PostgreSQL), Java, C; React, Fluent UI, ASP.NET Core, Node.js / Express, FastAPI, Django; Azure Functions, Cosmos DB, Azure DevOps, CI/CD, staged rollouts, A/B testing; GitHub Copilot, AI agents and skills, Playwright MCP, LLM APIs, E2E test automation.
 LOCATION: Seattle, WA (previously from the Toronto area).
 CONTACT: herjot18@outlook.com, linkedin.com/in/herjotdhaliwal
 

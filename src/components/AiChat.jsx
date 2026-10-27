@@ -4,10 +4,10 @@ import './AiChat.css'
 const HERJOT_INFO = {
   role: "Software Engineer 2 at Microsoft in the Gaming organization",
   location: "Seattle, WA",
-  school: "University of Toronto, Honours BSc in Computer Science (2018-2023)",
-  experience: "5 years at Microsoft including 3 internships and a full-time role",
-  flagship: "Led and shipped Parental Consent for Xbox end-to-end with 99.99% reliability",
-  skills: "C#, React, TypeScript, Azure, ASP.NET Core, Fluent UI, Node.js, Python",
+  school: "University of Toronto, Honours BSc in Computer Science and Geographic Information Systems (2018-2023)",
+  experience: "Software Engineer at Microsoft Gaming since August 2023, preceded by Microsoft internships in 2020 and during two consecutive summers from 2021 to 2022",
+  flagship: "Built core screens for the Fluent UI rebuild of Xbox parental consent; an A/B test showed about 33% higher consent completion, 6% higher child sign-in, and 34.5% fewer backend round-trips",
+  skills: "C#, TypeScript, JavaScript, Python, SQL, Java, C, React, Fluent UI, ASP.NET Core, Node.js / Express, FastAPI, Django, Azure, Azure DevOps, Playwright MCP, GitHub Copilot",
   hobbies: "hiking, lifting, reading, travel, and hunting for delicious food",
   quote: "To crave the result but not the process is to guarantee disappointment",
   tagline: "Obsessed with the process",
@@ -48,7 +48,7 @@ function getResponse(input) {
 
   // Xbox / flagship project
   if (q.match(/xbox|game|gaming|parental|flagship|biggest/))
-    return `He owned the Parental Consent experience for Xbox end-to-end — from design through staged production rollout. The migration served millions of users with 99.99% service reliability and zero rollback. That's his flagship project. 🎮`
+    return `${HERJOT_INFO.flagship}. He also took 3 child sign-up releases through staged rollout to full promotion and shipped age-restriction UI used by 2,400+ child accounts with zero frontend exceptions in 21 days. 🎮`
 
   // Promotion
   if (q.match(/promot|swe 2|level up|advance/))
@@ -56,15 +56,15 @@ function getResponse(input) {
 
   // Internships
   if (q.match(/intern/))
-    return `Herjot did 3 internships at Microsoft: Explore Intern (2020), SWE Intern (2021), and SWE Intern (2022). Each summer he shipped real features — from auto-publishing Grafana dashboards to building Azure pipelines. That intern-to-full-time pipeline hits different. 🎯`
+    return `Herjot was a Microsoft Explore Intern in summer 2020, then a Software Engineer Intern for two consecutive summers from 2021 to 2022. His work included Grafana dashboard auto-publishing that cut publishing time by 80%, an async job-tracking system that was 20% faster, and an Azure pipeline that improved workflow efficiency by 30%. 🎯`
 
   // Work / experience / career
   if (q.match(/experience|career|job|what does he do|work\b|microsoft|role/))
-    return `Herjot has ${HERJOT_INFO.experience}. His biggest achievement: leading the Parental Consent migration for Xbox end-to-end, from design through staged production rollout. He was recently promoted to SWE 2. 📈`
+    return `Herjot has worked at Microsoft since 2020, first as an intern and as a Software Engineer in Gaming since August 2023. He became a Software Engineer 2 in March 2026. His recent work focuses on Xbox child sign-up and parental consent. 📈`
 
   // Skills / tech
   if (q.match(/skill|tech|stack|language|framework|code|program/))
-    return `His core stack: ${HERJOT_INFO.skills}. He's worked full-stack from frontend React to Azure cloud infrastructure. He also leverages AI tooling to automate testing — reduced manual effort by 50%+. 💻`
+    return `His toolkit includes ${HERJOT_INFO.skills}. He also built a Playwright MCP AI test agent that runs Azure DevOps test cases end to end, captures evidence, and reports results—replacing a 2-day manual test pass. 💻`
 
   // Education
   if (q.match(/school|education|university|toronto|degree|study|studied/))
@@ -76,11 +76,11 @@ function getResponse(input) {
 
   // Location
   if (q.match(/location|where.*live|city|seattle|based/))
-    return `Herjot is based in ${HERJOT_INFO.location}. Previously from the Toronto area. The PNW is his happy place — mountains, food, and tech all in one spot. 🌲`
+    return `Herjot is based in ${HERJOT_INFO.location}. 🌲`
 
   // General "who is" / "tell me about"
   if (q.match(/who is|about him|tell me|describe/))
-    return `Herjot is a ${HERJOT_INFO.role}, based in ${HERJOT_INFO.location}. At work, he ships platform experiences for millions of Xbox users. Outside of work, he's into ${HERJOT_INFO.hobbies}. His philosophy? "${HERJOT_INFO.tagline}." 🚀`
+    return `Herjot is a ${HERJOT_INFO.role}, based in ${HERJOT_INFO.location}. His work includes Xbox child sign-up and parental consent experiences. Outside of work, he's into ${HERJOT_INFO.hobbies}. His philosophy? "${HERJOT_INFO.tagline}." 🚀`
 
   // Fallback
   return `Great question! I'd recommend asking Herjot directly — he's approachable and always happy to chat. Reach him at ${HERJOT_INFO.email} or try asking me about his skills, experience, hobbies, or how to contact him! 😊`

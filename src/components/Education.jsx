@@ -16,7 +16,7 @@ export default function Education() {
           <div className="edu-icon">🎓</div>
           <div className="edu-info">
             <h3>University of Toronto</h3>
-            <p>Honours Bachelor of Science in Computer Science</p>
+            <p>Honours BSc in Computer Science and Geographic Information Systems</p>
             <span className="edu-date">2018 — 2023</span>
           </div>
         </motion.div>
