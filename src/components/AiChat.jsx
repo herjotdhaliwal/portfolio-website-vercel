@@ -48,7 +48,7 @@ function getResponse(input) {
 
   // Xbox / flagship project
   if (q.match(/xbox|game|gaming|parental|flagship|biggest/))
-    return `${HERJOT_INFO.flagship}. He also took 3 child sign-up releases through staged rollout to full promotion and shipped age-restriction UI used by 2,400+ child accounts with zero frontend exceptions in 21 days. 🎮`
+    return `${HERJOT_INFO.flagship}. He led the parental consent migration to React and C# through a 7-ring rollout with zero downtime and 99.99% reliability, took 3 child sign-up releases through staged rollout to full promotion and shipped age-restriction UI used by 2,400+ child accounts with zero frontend exceptions in 21 days. 🎮`
 
   // Promotion
   if (q.match(/promot|swe 2|level up|advance/))
